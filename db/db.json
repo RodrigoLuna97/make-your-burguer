@@ -16,6 +16,10 @@
       {
         "id": 4,
         "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Mexicano"
       }
     ],
     "carnes": [
@@ -79,43 +83,38 @@
   ],
   "burgers": [
     {
-      "nome": "maria",
-      "carne": "Alcatra",
-      "pao": "Integral",
-      "opicionais": [],
-      "status": "Solicitado",
+      "nome": "rodrigo",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Em produção",
       "id": 1
     },
     {
-      "nome": "rodrigo",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [],
+      "nome": "maria",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
       "status": "Solicitado",
       "id": 2
     },
     {
-      "nome": "irineu",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
-      "nome": "nhe",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "rodrigo",
+      "nome": "john",
       "carne": "Maminha",
       "pao": "3 Queijos",
-      "opcionais": [],
-      "status": "Solicitado",
+      "opcionais": [
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Finalizado",
       "id": 5
     }
   ]
