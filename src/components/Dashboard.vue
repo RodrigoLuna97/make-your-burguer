@@ -30,9 +30,8 @@
                   </option>
               </select>
               <button class="delete-btn" @click="deleteBurger(burger.id)">Cancelar</button>
-          </div>
-          </div>
-          
+              </div>
+          </div>         
       </div>
   </div>
 </template>
@@ -103,7 +102,7 @@ console.log(this.burgers);
       const res =await req.json();
 
        // colocar uma msg de sistema
-      this.msg = `O pedido Nº ${res.id} foi atualizado para ${res.status}!`
+      this.msg = `O pedido Nº ${res.id} foi atualizado para: ${res.status}!`
 
       //limpar msg
       setTimeout(() => this.msg = "", 3000);

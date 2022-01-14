@@ -97,6 +97,10 @@ export default {
       
       // limpar os campos
 
+      this.nome = "";
+      this.carne = "";
+      this.pao = "";
+      this.opcionais= []
       }
     },
     mounted(){

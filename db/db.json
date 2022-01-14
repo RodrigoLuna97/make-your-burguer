@@ -116,6 +116,33 @@
       ],
       "status": "Finalizado",
       "id": 5
+    },
+    {
+      "nome": "guilim",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Finalizado",
+      "id": 6
+    },
+    {
+      "nome": "marcia",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Pepino",
+        "Tomate",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 7
     }
   ]
 }
